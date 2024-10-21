@@ -2543,6 +2543,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .animated_img {
   max-width: 50px;
   position: absolute;
+  z-index: 10;
   left: -10px;
   top: 40px;
   animation-name: animated_img, delay_animation;
