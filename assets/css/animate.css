@@ -2519,3 +2519,34 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   position: relative;
   animation: floating 3s ease-in-out infinite;
 }
+
+@keyframes animated_img {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(2250%); }
+}
+
+@keyframes delay_animation {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  80.01% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated_img {
+  max-width: 50px;
+  position: absolute;
+  left: -10px;
+  top: 40px;
+  animation-name: animated_img, delay_animation;
+  animation-duration: 30s, 150s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
