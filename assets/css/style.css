@@ -97,8 +97,8 @@ nav.navbar.bootsnav {
     display: inline-block;
     //color: #d92cf9;
     color: #3498db;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
     padding: 33px 0px 57px;
     text-transform: uppercase;
 }
@@ -107,7 +107,7 @@ nav.navbar.bootsnav {
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -165,9 +165,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #3498db;}
 
 
 /*-------------------------------------
-        3.  Welcome-hero
+        3.  welcome
 --------------------------------------*/
-.welcome-hero{
+.welcome{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +177,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #3498db;}
     background-position: center;
     height:890px;
 }
-.welcome-hero:before{
+.welcome:before{
     position:absolute;
     content: " ";
     top:0;
@@ -322,7 +322,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #3498db;}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
-.single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
+.education-content h4.title {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.education-content h5 {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 15px;
+	text-transform: none;
+}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
 
 /*.timeline-horizontal-border*/
@@ -435,13 +445,18 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .experience-time h2 {
     font-weight: 400;
-	color: #58d68d;
 }
 .experience-time h3 {
     font-size: 16px;
     font-weight: 400;
     margin-top: 14px;
     text-transform: uppercase;
+}
+
+.date-interval {
+	color: #58d68d;
+	text-decoration: none;
+	pointer-events: none;
 }
 /*experience-time*/
 
