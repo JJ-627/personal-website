@@ -2498,3 +2498,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
 }
+
+
+
+@keyframes floating {
+  0% {
+      transform: translateY(0);
+  }
+
+  50% {
+      transform: translateY(-20px);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.floating {
+  position: relative;
+  animation: floating 3s ease-in-out infinite;
+}
